@@ -1,0 +1,17 @@
+@page
+
+@{
+    double lado1 = 5;
+    double lado2 = 5;
+    double altura = 10;
+
+    double perimetro = Application.Figura261E10.Perimetro(lado1, lado2);
+    double area = Application.Figura261E10.Area(lado1, lado2);
+    double volumen = Application.Figura261E10.Volumen(area, altura);
+}
+
+El perímetro de un Rectángulo de @(lado1)cm por @(lado2)cm es @(perimetro)cm
+<br />
+El área de un Rectángulo de @(lado1)cm por @(lado2)cm es @(area)cm2
+<br />
+El volumen con un área de @(area)cm2 y @(altura)cm de altura es @(volumen)cm3
